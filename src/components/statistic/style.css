@@ -1,0 +1,12 @@
+.statistic-content {
+    display: flex;
+    align-items: center;
+}
+
+.statistic-prefix {
+    margin-right: 0.25rem;
+}
+
+.statistic-suffix {
+    margin-left: 0.25rem;
+}

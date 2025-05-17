@@ -1,0 +1,68 @@
+{
+    "name": "@coderlzw/react-number-animation",
+    "version": "0.0.1",
+    "description": "A React component for animated number transitions with smooth animations and customizable options",
+    "type": "module",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "lint": "eslint --fix src/**/*.ts",
+        "lint:check": "eslint src/**/*.ts",
+        "format": "prettier --write src/**/*.ts",
+        "format:check": "prettier --check src/**/*.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/coderlzw/react-number-animation"
+    },
+    "bugs": {
+        "url": "https://github.com/coderlzw/react-number-animation/issues"
+    },
+    "homepage": "https://github.com/coderlzw/react-number-animation#readme",
+    "keywords": [
+        "react",
+        "animation",
+        "number",
+        "statistic",
+        "transition"
+    ],
+    "author": "coderlzw",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": ">=16.8.0",
+        "react-dom": ">=16.8.0"
+    },
+    "dependencies": {
+        "motion": "^12.12.1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.25.0",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "eslint": "^9.25.0",
+        "eslint-config-prettier": "^10.1.5",
+        "eslint-plugin-react-hooks": "^5.2.0",
+        "eslint-plugin-react-refresh": "^0.4.19",
+        "globals": "^16.1.0",
+        "prettier": "3.5.3",
+        "tsup": "^8.5.0",
+        "typescript": "^5.0.0",
+        "typescript-eslint": "^8.32.1"
+    }
+}
