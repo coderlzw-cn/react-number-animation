@@ -1,6 +1,6 @@
 {
     "name": "@coderlzw/react-number-animation",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A React component for animated number transitions with smooth animations and customizable options",
     "type": "module",
     "main": "./dist/index.js",
